@@ -1,0 +1,25 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    background-color: #ccc;
+    align-items: center;
+}
+
+nav > div{
+    padding: 15px;
+}
+
+nav > div > a {
+    margin-left: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+}
+
+nav > div > a:hover{
+    /* color: #9b8b8b; */
+    color: white;
+} 
+
